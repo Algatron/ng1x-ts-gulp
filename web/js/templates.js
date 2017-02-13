@@ -1,0 +1,1 @@
+angular.module('templates', []).run(['$templateCache', function($templateCache) {$templateCache.put('app/components/message-panel/message-panel-template.html','\r\n<div class="row">\r\n    <div class="col-md-2">IMG</div>\r\n    <div class="col-md-10">\r\n        <span data-ng-transclude>\r\n        </span>\r\n    </div>\r\n</div>\r\n\r\n');}]);
